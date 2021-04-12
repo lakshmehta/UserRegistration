@@ -103,7 +103,7 @@ namespace UserRegisatration
         }
         public bool isValidPassword(string password)
         {
-            string passwordRegex = "^(?=.*[A-Z])[a-zA-Z0-9]{8,}$";
+            string passwordRegex = "^(?=.*[A-Z])(?=.*[0-9])[a -zA-Z0-9]{8,}$";
             Regex regex = new Regex(passwordRegex);
             try
             {
