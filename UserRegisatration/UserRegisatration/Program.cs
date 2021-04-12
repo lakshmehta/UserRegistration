@@ -26,6 +26,41 @@ namespace UserRegisatration
             Console.WriteLine("Enter Password:");
             string password = Console.ReadLine();
             Console.WriteLine(patter.isValidPassword(password));
+            List<string> validEmailList = new List<string>()
+            { "abc@yahoo.com", "abc-100@yahoo.com" ,"abc.100@yahoo.com","abc111@abc.com","abc-100@abc.net",
+                "abc.100@abc.com.au","abc@1.com","abc@gmail.com.com","abc+100@gmail.com"};
+
+            foreach (string emails in validEmailList)
+            {
+                if (patter.isValidEmail(emails))
+                {
+                    Console.WriteLine(true);
+                }
+                else
+                {
+                    Console.WriteLine(false);
+                }
+            }
+
+            List<string> invalidEmailList = new List<string>()
+            {"abc","abc@.com.my","abc123@gmail.a","abc123@.com","abc123@.com.com",".abc@abc.com","abc()*@gmail.com",
+             "abc@%*.com","abc..2002@gmail.com}","abc.@gmail.com","abc@abc@gmail.com","abc@gmail.com.1a","abc@gmail.com.aa.au" };
+
+            foreach (string emails in invalidEmailList)
+            {
+                if (patter.isValidEmail(emails))
+                {
+                    Console.WriteLine(false);
+                }
+                else
+                {
+                    Console.WriteLine(false);
+                }
+            }
+
+
+
+
         }
     }
 }
