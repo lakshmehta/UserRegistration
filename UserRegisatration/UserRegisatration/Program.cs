@@ -16,10 +16,13 @@ namespace UserRegisatration
             Console.WriteLine(patter.isValidFirstName(firstName));
             Console.WriteLine("Enter Last_Name:");
             string lastName = Console.ReadLine();
-            Console.WriteLine(patter.isValidFirstName(lastName));
+            Console.WriteLine(patter.isValidLastName(lastName));
             Console.WriteLine("Enter Email_Id");
             string email = Console.ReadLine();
-            Console.WriteLine(patter.isValidFirstName(email));
+            Console.WriteLine(patter.isValidEmail(email));
+            Console.WriteLine("Enter Mobile_Number:");
+            string mobilenum = Console.ReadLine();
+            Console.WriteLine(patter.isValidMobileNumber(mobilenum));
 
         }
     }
