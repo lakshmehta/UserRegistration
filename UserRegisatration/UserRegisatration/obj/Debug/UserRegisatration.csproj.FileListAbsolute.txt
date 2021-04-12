@@ -1,0 +1,7 @@
+F:\UserRegistration\UserRegisatration\UserRegisatration\bin\Debug\UserRegisatration.exe.config
+F:\UserRegistration\UserRegisatration\UserRegisatration\bin\Debug\UserRegisatration.exe
+F:\UserRegistration\UserRegisatration\UserRegisatration\bin\Debug\UserRegisatration.pdb
+F:\UserRegistration\UserRegisatration\UserRegisatration\obj\Debug\UserRegisatration.csprojAssemblyReference.cache
+F:\UserRegistration\UserRegisatration\UserRegisatration\obj\Debug\UserRegisatration.csproj.CoreCompileInputs.cache
+F:\UserRegistration\UserRegisatration\UserRegisatration\obj\Debug\UserRegisatration.exe
+F:\UserRegistration\UserRegisatration\UserRegisatration\obj\Debug\UserRegisatration.pdb
