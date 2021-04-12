@@ -23,7 +23,9 @@ namespace UserRegisatration
             Console.WriteLine("Enter Mobile_Number:");
             string mobilenum = Console.ReadLine();
             Console.WriteLine(patter.isValidMobileNumber(mobilenum));
-
+            Console.WriteLine("Enter Password:");
+            string password = Console.ReadLine();
+            Console.WriteLine(patter.isValidPassword(password));
         }
     }
 }
