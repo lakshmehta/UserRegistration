@@ -78,5 +78,28 @@ namespace UserRegisatration
             }
 
         }
+        public bool isValidMobileNumber(string mobilenum)
+        {
+            string mobileRegex = "^(0|91[ ])?[7-9][0-9]{9}$";
+            Regex regex = new Regex(mobileRegex);
+            try
+            {
+                if (regex.IsMatch(mobilenum))
+                {
+                    return true;
+                }
+                else
+                {
+                    throw new UserException(UserException.ExceptionType.INVALID_MOBILE_NUMBER, "Invalid_Mobile_Number");
+                }
+
+            }
+            catch (UserException ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+            }
+
+        }
     }
 }
