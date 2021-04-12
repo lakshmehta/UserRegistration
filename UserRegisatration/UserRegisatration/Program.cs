@@ -17,6 +17,9 @@ namespace UserRegisatration
             Console.WriteLine("Enter Last_Name:");
             string lastName = Console.ReadLine();
             Console.WriteLine(patter.isValidFirstName(lastName));
+            Console.WriteLine("Enter Email_Id");
+            string email = Console.ReadLine();
+            Console.WriteLine(patter.isValidFirstName(email));
 
         }
     }
