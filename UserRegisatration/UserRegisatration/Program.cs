@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace UserRegisatration
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Pattern patter = new Pattern();
+            Console.WriteLine("Enter First_Name:");
+            string firstName = Console.ReadLine();
+            Console.WriteLine(patter.isValidFirstName(firstName));
+
+        }
+    }
+}
